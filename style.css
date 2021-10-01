@@ -1,0 +1,57 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+main {
+  display: flex;
+}
+.image {
+  width: 50%;
+  margin: 100px;
+}
+.price{
+    border:1px solid black;
+}
+.total{
+    display: flex;
+}
+.total-price-amount{
+    margin-left: 220px;
+}
+.image img {
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid rgba(59, 57, 57, 0.096);
+  border-collapse: collapse;
+  margin-top: 100px;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+input#input-field {
+  margin-top: 10px;
+  padding: 10px;
+}
+#button {
+  color: white;
+  background-color: red;
+  border: 1px solid red;
+}
+footer {
+  text-align: center;
+}
+button {
+  color: black;
+  padding: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
